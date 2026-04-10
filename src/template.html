@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1> Battleship </h1>
+    <div class="game">
+    <div class="player">
+        <h2> Player 1's Board</h2>
+
+        <div class="outerBoard">
+            <div class="numbers"></div> <div class="numbers">1</div> <div class="numbers">2</div> <div class="numbers">3</div>
+            <div class="numbers">4</div> <div class="numbers">5 </div> <div class="numbers">6 </div> <div class="numbers">7</div> 
+            <div class="numbers">8</div> <div class="numbers">9 </div> <div class="numbers">10</div>
+            <div class="board" id="board1">  </div> 
+            <div class="numbers">1</div> <div class="numbers">2</div> <div class="numbers">3</div>
+            <div class="numbers">4</div> <div class="numbers">5 </div> <div class="numbers">6 </div> <div class="numbers">7</div> 
+            <div class="numbers">8</div> <div class="numbers">9 </div> <div class="numbers">10</div>
+        </div>
+        <div id="addShips1">
+         <button type="button" id="compu1"> Make the computer play as Player 1 </button> 
+         <p>To add ships: click a ship below, then click a square. <br> (Or choose Random deployment. <button type="button" id="random1"> Random </button>)  </p>   
+         <div class="orientation"> Orientation: <span id="o1"> vertical </span><button type="button" id="ob1">Change</button> </div>
+         <div class="ships"  id="ships1"> 
+            <span class="ship5">XXXXX </span><span class="ship4">XXXX </span><span class="ship4">XXXX </span>      
+            <span class="ship3">XXX </span><span class="ship3">XXX </span><span class="ship3">XXX </span>
+            <span class="ship2">XX </span><span class="ship2">XX </span><span class="ship2">XX </span><span class="ship2">XX </span>
+         </div>
+          <button type="button" id="done1">Done</button>
+        </div>
+    </div>
+    <div class="player">
+        <h2> Player 2's Board</h2>
+
+        <div class="outerBoard">
+            <div class="numbers"></div> <div class="numbers">1</div> <div class="numbers">2</div> <div class="numbers">3</div>
+            <div class="numbers">4</div> <div class="numbers">5 </div> <div class="numbers">6 </div> <div class="numbers">7</div> 
+            <div class="numbers">8</div> <div class="numbers">9 </div> <div class="numbers">10</div>
+            <div class="board" id="board2" >  </div> 
+            <div class="numbers">1</div> <div class="numbers">2</div> <div class="numbers">3</div>
+            <div class="numbers">4</div> <div class="numbers">5 </div> <div class="numbers">6 </div> <div class="numbers">7</div> 
+            <div class="numbers">8</div> <div class="numbers">9 </div> <div class="numbers">10</div>
+        </div>
+        <div id="addShips2">
+         <button type="button" id="compu2"> Make the computer play as Player 2 </button> 
+         <p>To add ships: click a ship below, then click a square. <br> (Or choose Random deployment.<button type="button" id="random2"> Random </button> ) </p>
+         <div class="orientation"> Orientation: <span id="o2"> vertical </span><button type="button" id="ob2">Change</button> </div>
+         <div class="ships" id="ships2"> 
+            <span class="ship5">XXXXX </span><span class="ship4">XXXX </span><span class="ship4">XXXX </span>      
+            <span class="ship3">XXX </span><span class="ship3">XXX </span><span class="ship3">XXX </span>
+            <span class="ship2">XX </span><span class="ship2">XX </span><span class="ship2">XX </span><span class="ship2">XX </span>
+         </div>
+         <button type="button" id="done2">Done</button>
+        </div>
+    </div>
+    </div>
+
+    <footer> </footer>
+</body>
+</html>
